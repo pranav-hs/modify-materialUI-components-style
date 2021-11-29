@@ -11,9 +11,11 @@ Component styles normally apply only to the HTML in the component's own template
 
 Use the ::ng-deep shadow-piercing descendant combinator to force a style down through the child component tree into all the child component views. The ::ng-deep combinator works to any depth of nested components, and it applies to both the view children and content children of the component.
 
-```::ng-deep h3 {
+```
+::ng-deep h3 {
   font-style: italic;
-}```
+}
+```
 
 The ::ng-deep combinator also has the aliases >>>, and /deep/.
 
